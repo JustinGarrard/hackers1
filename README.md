@@ -1,4 +1,4 @@
-# hackers1
+# Hackers Project 1: Prathm Juneja, Justin Garrard, Phil Baumann, and Conor Nailos
 Hackers in the Bazaar: Project 1
 This project is an attempt to bridge the gap between the fun, exciting nature of retro hacking with modern technology that people today enjoy.
 We've built a way to turn a RaspberryPi into a bluetooth receiver. Inspired by kids who want to use bluetooth headphones (i.e. gamers, airpods lol). This way, they can have fun hacking together something that actually comes to use for them. After the project is complete, any regular pair of headphones can be plugged into the Pi, making it completely wireless.
