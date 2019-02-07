@@ -1,5 +1,5 @@
-# Hackers Project 1: Prathm Juneja, Justin Garrard, Phil Baumann, and Conor Nailos
-Hackers in the Bazaar: Project 1
+# Hackers Project 1: Retro Bluetooth Headphones
+# Prathm Juneja, Justin Garrard, Phil Baumann, and Conor Nailos
 This project is an attempt to bridge the gap between the fun, exciting nature of retro hacking with modern technology that people today enjoy.
 We've built a way to turn a RaspberryPi into a bluetooth receiver. Inspired by kids who want to use bluetooth headphones (i.e. gamers, airpods lol). This way, they can have fun hacking together something that actually comes to use for them. After the project is complete, any regular pair of headphones can be plugged into the Pi, making it completely wireless.
 
@@ -25,4 +25,4 @@ Here's a simplified set of instructions on how you do it:
       - Here's the catch: the low-level Bluetooth library is broken. It's supposed to have a feature that allows you to prevent a       password being necessary, which would make the Pi headless. Unfortunately, that feature doesn't work unless the Pi has already connected to that device once. This would deafeat the purpose of everything. You would have to hook up the Pi to a keyboard and a monitor in order to connect to a new device.
       - Instead, we call something called bt-agent with a flag of NoInputNoOutput. This is a depricated tool that, while incompatible with a lot of new Bluetooth features, still works with the old low-level stuff. This thing does allow us to require no I/O devices. Thank God.
       
- That's all! Thanks for reading this!
+ That's all! After all of this is setup, you should be able to turn on the RaspberryPi, plug in any audio device to the aux port, and then connect to the Pi via bluetooth from a variety of devices. The default name is "raspberrypi". After connecting, simply press play, and you should be good to go and listening to your favorite retro tunes.
